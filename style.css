@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f3ff;
+    width: 100%;
+    height: 100vh;
+}
+
+.searchBox {
+    width: 500px;
+    border-radius: 50px;
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15);
+
+}
+
+#google-img {
+    width: 50px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#mic {
+    width: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#input {
+    background: transparent;
+    border: 0;
+    width: 500px;
+    font-size: 20px;
+    padding: 5px;
+}
+#input:focus {
+    outline: none;
+}
