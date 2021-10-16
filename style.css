@@ -13,35 +13,40 @@
 }
 
 .searchBox {
-    width: 500px;
+    width: 44rem;
     border-radius: 50px;
-    padding: 30px;
+    padding: 10px 22px;
     background-color: white;
     display: flex;
     align-items: center;
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15);
-
+    justify-content: space-between;
+    margin: 0px 10px;
 }
 
 #google-img {
-    width: 50px;
+    width: 30px;
     cursor: pointer;
-    margin-right: 10px;
 }
 
 #mic {
-    width: 30px;
-    margin-left: 20px;
+    width: 17px;
     cursor: pointer;
 }
 
 #input {
     background: transparent;
     border: 0;
-    width: 500px;
+    width: 85%;
     font-size: 20px;
     padding: 5px;
 }
 #input:focus {
     outline: none;
+}
+
+@media (max-width:430px) {
+    #input::placeholder{
+        padding-left: 13px;
+    }
 }
