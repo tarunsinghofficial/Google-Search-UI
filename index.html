@@ -12,9 +12,9 @@
 <body>
     <div class="hero">
         <div class="searchBox">
-            <img src="/Google Search/Img/google-logo-9808.png" id="google-img">
+            <img src="Img/google-logo-9808.png" id="google-img">
             <input type="search" placeholder="Search google or type the URL" id="input">
-            <img src="/Google Search/Img/mic.png" alt="" id="mic">
+            <img src="Img/mic.png" alt="" id="mic">
         </div>
     </div>
     <script type="text/javascript">
@@ -22,6 +22,12 @@
             var a = document.getElementById('sea');
             window.location = 'https://www.google.com/search?q=' + a;
         }
+        let input = document.getElementById('input');
+        if(window.innerWidth < 430){
+        input.setAttribute('placeholder', 'Search')
+        }
+        console.log(window.innerWidth)
+
     </script>
 </body>
 
